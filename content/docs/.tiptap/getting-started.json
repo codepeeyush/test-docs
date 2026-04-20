@@ -1,0 +1,14 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "---\ntitle: Getting Started\n---\n\n# Getting Started\nWelcome to the project! This guide helps you get up and running quickly with the docs site.\n\n## What’s included\n- A simple documentation structure in `content/docs`\n- Markdown and MDX pages for easy content creation\n- A lightweight site layout for getting started fast\n\n## Install dependencies\nFirst, install the project dependencies:\n\n```bash\nnpm install\n```\n\n## Run the development server\nStart the local site and preview your documentation:\n\n```bash\nnpm run dev\n```\n\nThen open the URL shown in your terminal, usually `http://localhost:3000`.\n\n## Add a new page\nCreate a new file in `content/docs`, for example:\n\n```bash\ntouch content/docs/new-guide.mdx\n```\n\nThen add a title and content using standard Markdown or MDX:\n\n```mdx\n---\ntitle: New Guide\n---\n\n# New Guide\n\nWrite your content here.\n```\n\n## Next steps\n- Edit `content/docs/index.mdx` to update the home page\n- Add additional guides under `content/docs`\n- Use MDX to include React components inside your docs if the site supports it\n\nHappy writing!"
+        }
+      ]
+    }
+  ]
+}
